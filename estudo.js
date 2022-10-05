@@ -1,16 +1,21 @@
 
-let tabuada = 69
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiro B</title>
+    <script src="estudo.js"></script>
 
-function escreva(){
-document.write( "<h1> tabuada do " + tabuada + "<br>"  )
-    document.write(tabuada + " x1 = " + (tabuada*1) +"<br>" );
-    document.write(tabuada + " x1 = " + (tabuada*2) + "<br>" )
-    document.write(tabuada + " x1 = " + (tabuada*3) +"<br>" )
-    document.write(tabuada + " x1 = " + (tabuada*4) +"<br>" )
-    document.write(tabuada + " x1 = " + (tabuada*5) +"<br>" )
-    document.write(tabuada + " x1 = " + (tabuada*6) +"<br>" )
-    document.write(tabuada + " x1 = " + (tabuada*7) +"<br>" )
-    document.write(tabuada + " x1 = " + (tabuada*8) +"<br>" )
-    document.write(tabuada + " x1 = " + (tabuada*9) +"<br>" )
-    document.write(tabuada + " x1 = " + (tabuada*10) +"<br>" )
-}
+
+</head>
+<body>
+    <button onclick="escreva()"> clique aqui</button>
+    <button onclick="mostraLista()"> Professores</button>
+    <button onclick="multiplica()"> taboada</button>
+
+
+</body>
+
+</html>
