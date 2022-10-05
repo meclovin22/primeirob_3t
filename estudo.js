@@ -1,21 +1,33 @@
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>primeiro B</title>
-    <script src="estudo.js"></script>
+let tabuada = 69
 
+function escreva(){
+document.write( "<h1> tabuada do " + tabuada + "<br>"  )
+    document.write(tabuada + " x1 = " + (tabuada*1) +"<br>" );
+    document.write(tabuada + " x2 = " + (tabuada*2) + "<br>" )
+    document.write(tabuada + " x3 = " + (tabuada*3) +"<br>" )
+    document.write(tabuada + " x4 = " + (tabuada*4) +"<br>" )
+    document.write(tabuada + " x5 = " + (tabuada*5) +"<br>" )
+    document.write(tabuada + " x6 = " + (tabuada*6) +"<br>" )
+    document.write(tabuada + " x7 = " + (tabuada*7) +"<br>" )
+    document.write(tabuada + " x8 = " + (tabuada*8) +"<br>" )
+    document.write(tabuada + " x9 = " + (tabuada*9) +"<br>" )
+    document.write(tabuada + " x10 = " + (tabuada*10) +"<br>" )
+}
 
-</head>
-<body>
-    <button onclick="escreva()"> clique aqui</button>
-    <button onclick="mostraLista()"> Professores</button>
-    <button onclick="multiplica()"> taboada</button>
+let lista = [ "jesus", "spessato" , "duarte" , "jorge" ]
 
-
-</body>
-
-</html>
+function mostraLista(){
+    document.write("tamanho da lista:" + lista.length + "<br>")
+    for(let i = 0; i <lista.length;  i++ ){
+        document.write("Professor: " + lista[i] + "<br>");
+    }
+}
+function multiplica(){
+    for(let i = 1; i <= 10; i++){
+        document.write("o valor do i = " +i+ "<br>")
+        for(let j = 1; j <= 10; j++){
+            document.write(i + " x "+j+" = " + (i*j) + "<br>")
+        }
+    }
+}
