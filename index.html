@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,20 @@
     <title>Primeiro B</title>
     <script src="estudo.js"></script>
 </head>
+
 <body>
 
-Valor: <input id="Valor" type="text" ><br>
-Juros(Mensais): <input id="Juros" type="text" ><br>
-Nr Meses: <input id="Meses" type="text" ><br>
-<button onclick="total()">Enviar</button>
+    <div class="calculadora">
+<span id="totalGeral">total:0,00</span><br>
+        Valor: <input id="Valor" type="text"><br>
+        Juros(Mensais): <input id="Juros" type="text"><br>
+        Nr Meses: <input id="Meses" type="text"><br>
+        <button onclick="total()">Enviar</button>
 
- <br><br><br><br>
-
- <span id="resul">Resultado 0,00</span><br>
-
-Primeiro numero : <input id="n1" type="text"><br>
-Segundo numero : <input id="n2" type="text"><br>
-Terceiro numero : <input id="n3" type="text"><br>
-Quarto numero: <input id="n4" type="text"><br>
-
-<button onclick="media()">Calcular a Média</button><br>
-<button onclick="somar()">Calcular a Soma</button><br>
-<button onclick="diminuir()">Calcular a Diminuição</button><br>
-<button onclick="multiplicar()"> Calcular a Multiplicação</button><br>
-
+    </div>
+    <div>
+        <span id="mes">meses</span>
+    </div>
 </body>
-</html>
 
+</html>
