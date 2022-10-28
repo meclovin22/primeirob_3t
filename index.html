@@ -7,21 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro B</title>
     <script src="estudo.js"></script>
+    <link rel="stylesheet" href="geral.css">
 </head>
 
 <body>
 
     <div class="calculadora">
-<span id="totalGeral">total:0,00</span><br>
-        Valor: <input id="Valor" type="text"><br>
-        Juros(Mensais): <input id="Juros" type="text"><br>
-        Nr Meses: <input id="Meses" type="text"><br>
-        <button onclick="total()">Enviar</button>
-
+        <div id="sptotalgeral">
+            <span id="totalGeral">Total:0,00</span><br>
+        </div>
+        Valor: <input id="valor" placeholder="cu de curioso" type="text"><br>
+        Juros(Mensais): <input id="juros" placeholder="mario" type="text"><br>
+        Nr Meses: <input id="meses" placeholder="quetecomeuatrasdo armario" type="text"><br>
+        <button onclick="total()">enviar</button>
     </div>
     <div>
-        <span id="mes">meses</span>
+        <span id="mes">Meses</span>
     </div>
+
+
 </body>
 
 </html>
